@@ -1,0 +1,151 @@
+body {
+  font-family: helvetica;
+
+}
+
+h1 {
+  background-color: #E96C51;
+    color: white;
+  }
+ 
+h2 {
+  background-color: orange;
+    color: #F5D3F3;
+  }
+ p {
+   
+   color: rgb(143, 155, 233);
+ }
+ a{
+   background-color: yellow;
+   color: orange;
+ }
+/* la forma correcta de enlasar los ID con CSS es colocando un # */
+
+/* un Id se utiliza cuando se tiene un estilo especifico para un solo elemento */
+/* para poder compartir estilos debemos usar clases "class" */
+/* para poder acceder a un elemento que tiene un class usamo el . (punto) */
+
+
+#contenedor-uno {
+  background-color: sienna;
+}
+
+#contenedor-dos {
+  background-color: yellow;
+}
+.contenedor-principal {
+  background-color: violet;
+  padding: 30px;
+}
+.btn-ingresar {
+  background-color: skyblue;
+  color: white;
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+}
+/* sepan que cuando se usan clases se puede compartir eslitos*/
+
+.btn-registro {
+  font-size: 25px;
+  background-color: springgreen;
+ 
+}
+.contenedor-form{
+  border: 3px solid cornflowerblue;
+  border-radius: 8px;
+}
+.contenedor-interno-form{
+  padding: 20px;
+  text-align: center;
+}
+.titulo-form{
+  color: brown;
+  background-color: rgb(234, 236, 110);
+}
+.input-form{
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px coral solid ;
+  width: 400px;
+
+}
+
+.input-codigo{
+  width: 100px;
+}
+.input-numero{
+  width: 275px;
+}
+.button-usuario{
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px rgb(95, 255, 80) solid ;
+  width: 400px;
+  background-color: coral;
+
+}
+.btn-crear-usuario {
+  background-color: rgb(248, 156, 35);
+  color: #000;
+  padding: 8px;
+  border-radius: 6px;
+  border: none;
+}
+
+/* pseudoclases
+los elementos tienen propiedades internas por ejm el hover
+Hover: detecta cuando el mouse esta sobre el elemento
+es decir estos estilos se aplican solo cuando el mouse esta sobre el elemento */
+
+.btn-ingresar:hover{
+  background-color: darkgoldenrod;
+  color: black;
+  text-decoration: none;
+  padding: 15px;
+
+
+  /* text-decoration quita el SUBRAYADO */
+
+}
+.btn-crear-usuario:hover {
+  background-color: rgb(124, 216, 87);
+  color: white;
+  padding: 8px;
+  border-radius: 6px;
+  border: none;
+  text-decoration: none;
+}
+
+/* los elementos como el "a" tienen pseudoclases como
+link
+visited
+hover
+active */
+
+/* estas pseudoclases aplican para todos los elementos de html */
+
+div:hover{
+  background-color: rgb(161, 214, 91);
+}
+
+.contenedor-interno-form h1{
+  border: 2px solid rgb(141, 141, 230);
+
+}
+.contenedor-interno-form p:first-child{
+  border: 2px solid rgb(92, 143, 92);
+}
+ /*First-child */
+ /* first-child busca al primer elemento */
+
+ h1:first-child {
+   color: purple;
+ }
+
+ input:first-of-type{
+   color: orange;
+ }
+
+ 
